@@ -1,1 +1,1 @@
-# JavaScript Teamwork Prodavachnik
+# JavaScript Teamwork (Prodavachnik)
