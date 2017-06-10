@@ -10,6 +10,7 @@
             publisher: "Pesho",
             datePublished: "2017-06-04",
             price: 100
+            
         }
     ];
 
