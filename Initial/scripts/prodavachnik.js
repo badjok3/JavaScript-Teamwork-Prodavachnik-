@@ -32,7 +32,6 @@ function startApp() {
         ajaxStart: function() { $("#loadingBox").show() },
         ajaxStop: function() { $("#loadingBox").hide() }
     });
-
     const kinveyBaseUrl = "https://mock.api.com/";
     const kinveyAppKey = "kid_rk";
     const kinveyAppSecret = "736804a668";
@@ -229,17 +228,15 @@ function startApp() {
                         $('<td>').text(advert.title),
                         $('<td>').text(advert.publisher),
                         $('<td>').text(advert.datePublished),
-                        $('<td>').text(advert.price),
+                        $('<td>').text(advert.price)),
                         $('<td>').append(links)
-
-                    ));
+                    );
                 }
 
                 $('#ads').append(advertsTable);
             }
         }
     }
-
     // advertisement/create
     function createAdvert() {
         const kinveyAuthHeaders = {
